@@ -1,0 +1,28 @@
+# Virtual Environments
+.venv/
+env/
+venv/
+
+# Large Datasets
+*.pkl
+LSWMD.pkl
+
+# Preprocessed Data Arrays
+*.npy
+
+# Model Checkpoints / Weights
+*.h5
+
+# Generated Output / Plots (Optional to ignore, but usually good if they are reproduced by scripts)
+*.png
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
